@@ -12,17 +12,21 @@ body, html {
     position: relative;
     color: white;
     font-family: 'Lato', sans-serif;
+    font-weight: 300;
     font-size: 30px;
 }
 
 .navbar {
     position: absolute;
     top: 0;
-    left: 16px;
-}
 
-.logo {
-    margin-right: 5px;
+    .title {
+        margin: 15px;
+    }
+
+    .logo {
+        margin-right: 5px;
+    }
 }
 
 .text {
@@ -31,6 +35,10 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+
+    .coming-soon {
+        font-weight: 400;
+    }
 }
 
 hr {
